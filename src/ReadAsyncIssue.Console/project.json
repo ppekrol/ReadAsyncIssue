@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0-*",
+  "description": "",
+  "authors": [ "" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "ReadAsyncIssue.Console": "ReadAsyncIssue.Console"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.Net.Http": "2.2.29"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.0-beta-22816",
+        "System.Collections": "4.0.10-beta-22816",
+        "System.Console": "4.0.0-beta-22816",
+        "System.Linq": "4.0.0-beta-22816",
+        "System.Net.Http": "4.0.0-beta-22816",
+        "System.Net.Http.WinHttpHandler": "4.0.0-beta-22816",
+        "System.Threading": "4.0.10-beta-22816"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27AFC332-C44E-4B8F-896B-E3E8A62FCC42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B47B9044-8792-4554-8E69-EA0F89CD9E85}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReadAsyncIssue", "src\ReadAsyncIssue\ReadAsyncIssue.xproj", "{27387429-E68A-4888-93C9-75D5A864BB0A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReadAsyncIssue.Console", "src\ReadAsyncIssue.Console\ReadAsyncIssue.Console.xproj", "{1E4D754F-41B8-4A7D-9884-DC17CAA95DF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27387429-E68A-4888-93C9-75D5A864BB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27387429-E68A-4888-93C9-75D5A864BB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27387429-E68A-4888-93C9-75D5A864BB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27387429-E68A-4888-93C9-75D5A864BB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4D754F-41B8-4A7D-9884-DC17CAA95DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4D754F-41B8-4A7D-9884-DC17CAA95DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4D754F-41B8-4A7D-9884-DC17CAA95DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4D754F-41B8-4A7D-9884-DC17CAA95DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27387429-E68A-4888-93C9-75D5A864BB0A} = {27AFC332-C44E-4B8F-896B-E3E8A62FCC42}
+		{1E4D754F-41B8-4A7D-9884-DC17CAA95DF0} = {27AFC332-C44E-4B8F-896B-E3E8A62FCC42}
+	EndGlobalSection
+EndGlobal
